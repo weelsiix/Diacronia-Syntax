@@ -1,0 +1,28 @@
+{
+  "name": "diacronia-syntax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weelsiix/Diacronia-Syntax.git"
+  },
+  "keywords": [
+    "diacronia",
+    "vscode",
+    "visual",
+    "studio",
+    "code",
+    "syntax",
+    "theme"
+  ],
+  "author": "Weelsiix & Daniele Borra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weelsiix/Diacronia-Syntax/issues"
+  },
+  "homepage": "https://github.com/weelsiix/Diacronia-Syntax#readme"
+}
