@@ -1,0 +1,27 @@
+{
+    "name": "diacronia",
+    "type": "dark",
+
+    "colors": {
+        "editor.background": "#212121",
+        "editor.foreground": "#303030"
+    },
+
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment.line",
+                "comment.block",
+                "comment.block.documentation",
+                "punctuation.definition.comment",
+                "meta.toc-list"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#474747"
+            }
+        }
+        
+    ]
+}
