@@ -10,15 +10,14 @@
         "sideBar.foreground": "#FDFFFC",
         "sideBar.border": "#2D191D",
         "editor.background": "#16010A",
+        "editor.foreground": "#FDFFFC",
+        "editorLineNumber.foreground": "#bababa",
         "editorGroupHeader.tabsBackground": "#140109",
         "tab.activeBackground": "#16010A",
         "tab.activeForeground": "#FFCF99",
-        "tab.activeBorder": "#2D191D",
         "tab.unfocusedActiveBorder": "#2D191D",
         "tab.inactiveBackground": "#2D191D",
         "tab.inactiveForeground": "#bababa",
-        "editor.foreground": "#FDFFFC",
-        "editorLineNumber.foreground": "#bababa",
         "statusBar.background": "#bababa",
         "statusBar.foreground": "#16010A"
     },
@@ -32,6 +31,66 @@
             "settings": {
                 "foreground": "#FFCF99",
                 "fontStyle": "italic"
+            }
+        },       
+        {
+            "name": "Comments",
+            "scope": [
+                "comment"
+            ],          
+            "settings": {
+                "foreground": "#43494C",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "Keyword Operator & Costant Numeric",
+            "scope": [
+                "keyword.operator",
+                "keyword.operator.new.js",
+                "keyword.operator.js",
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#93FFF7"
+            }
+        },
+        {
+            "name": "Variable Language Operators",
+            "scope": [
+                "variable.language",
+                "keyword.control"
+            ],
+            "settings": {
+                "foreground": "#FF3535"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                
+            ],
+            "settings": {
+                "foreground": "#FF1654"
+            }
+        },
+        {
+            "name": "Storage Type",
+            "scope": [
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#DEF6CA",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Support",
+            "scope": [
+                "support"
+            ],
+            "settings": {
+                "foreground": "#FBF2C0"
             }
         }
     ]
