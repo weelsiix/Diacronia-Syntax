@@ -10,13 +10,16 @@
         "editor.background": "#1e1717", /*"#292a2b",*/
         "editor.foreground": "#f9f9f9",
         "editorLineNumber.foreground": "#bababa",
-        "editorGroupHeader.tabsBackground": "#140109",
+        "editorGroupHeader.tabsBackground": "#3F3131",
+        "editorGroupHeader.tabsBorder": "#1e1717",
         "tab.activeBackground": "#1e1717",
-        "tab.activeForeground": "#f9f9f9",
+        "tab.activeBorder": "#bababa",
+        "tab.inactiveBorder": "#bababa",
         "tab.inactiveBackground": "#3F3131",
         "tab.inactiveForeground": "#bababa",
         "statusBar.background": "#3F3131", /* #D8CBC7 */
-        "statusBar.foreground": "#bababa"
+        "statusBar.foreground": "#bababa",
+        "titleBar.activeBackground": "#1e1717"
     },
 
     "tokenColors": [
