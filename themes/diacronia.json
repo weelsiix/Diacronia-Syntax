@@ -3,23 +3,20 @@
     "type": "dark",
 
     "colors": {
-        "activityBar.background": "#140109", 
-        "activityBar.foreground": "#FDFFFC", 
-        "activityBar.border": "#2D191D",
-        "sideBar.background": "#140109", 
-        "sideBar.foreground": "#FDFFFC",
-        "sideBar.border": "#2D191D",
-        "editor.background": "#16010A",
-        "editor.foreground": "#FDFFFC",
+        "activityBar.background": "#1e1717", 
+        "activityBar.foreground": "#bababa", 
+        "sideBar.background": "#3F3131", 
+        "sideBar.foreground": "#f9f9f9",
+        "editor.background": "#1e1717", /*"#292a2b",*/
+        "editor.foreground": "#f9f9f9",
         "editorLineNumber.foreground": "#bababa",
         "editorGroupHeader.tabsBackground": "#140109",
-        "tab.activeBackground": "#16010A",
-        "tab.activeForeground": "#FFCF99",
-        "tab.unfocusedActiveBorder": "#2D191D",
-        "tab.inactiveBackground": "#2D191D",
+        "tab.activeBackground": "#1e1717",
+        "tab.activeForeground": "#f9f9f9",
+        "tab.inactiveBackground": "#3F3131",
         "tab.inactiveForeground": "#bababa",
-        "statusBar.background": "#bababa",
-        "statusBar.foreground": "#16010A"
+        "statusBar.background": "#3F3131", /* #D8CBC7 */
+        "statusBar.foreground": "#bababa"
     },
 
     "tokenColors": [
@@ -29,7 +26,7 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#FFCF99",
+                "foreground": "#FF9999",
                 "fontStyle": "italic"
             }
         },       
@@ -44,15 +41,14 @@
             }
         },
         {
-            "name": "Keyword Operator & Costant Numeric",
+            "name": "Keyword Operator",
             "scope": [
                 "keyword.operator",
                 "keyword.operator.new.js",
-                "keyword.operator.js",
-                "constant.numeric"
+                "keyword.operator.js"
             ],
             "settings": {
-                "foreground": "#93FFF7"
+                "foreground": "#FFCF99" /*"#93FFF7"*/
             }
         },
         {
@@ -62,26 +58,17 @@
                 "keyword.control"
             ],
             "settings": {
-                "foreground": "#FF3535"
+                "foreground": "#9C528B"
             }
         },
         {
-            "name": "Variables",
+            "name": "Storage Type && Constant Numeric",
             "scope": [
-                
+                "storage.type",
+                "constant.numeric"
             ],
             "settings": {
-                "foreground": "#FF1654"
-            }
-        },
-        {
-            "name": "Storage Type",
-            "scope": [
-                "storage.type"
-            ],
-            "settings": {
-                "foreground": "#DEF6CA",
-                "fontStyle": "bold"
+                "foreground": "#D7BEA8"
             }
         },
         {
@@ -90,7 +77,7 @@
                 "support"
             ],
             "settings": {
-                "foreground": "#FBF2C0"
+                "foreground": "#FFCF99"
             }
         }
     ]
