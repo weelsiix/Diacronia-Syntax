@@ -43,45 +43,6 @@
                 "foreground": "#686868",
                 "fontStyle": "italic"
             }
-        },
-        {
-            "name": "QUALCOSA DI CUI NON RICORDO IL NOME. TODO.",
-            "scope": [
-                "storage.type",
-                "support.function",
-                "support.constant",
-                "constant.numeric"
-            ],
-            "settings": {
-                "foreground": "#83E2CB"  
-            }
-        },
-        {
-            "name": "Support Type",
-            "scope": [
-                "support.type",
-                "support.class",
-                "entity.name.function"
-            ],
-            "settings": {
-                "foreground": "#EA526F"
-            }
-        },
-        {
-            "name": "Variable Parameter",
-            "scope": [
-                "variable.parameter"
-            ],
-            "settings": "#FBFF12"
-        },
-        {
-            "name": "Keyword",
-            "scope": [
-                "keyword"
-            ],
-            "settings": {
-                "foreground": "#D2F898"
-            }
         }
     ]
     
