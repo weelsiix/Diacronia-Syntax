@@ -3,25 +3,86 @@
     "type": "dark",
 
     "colors": {
-        "editor.background": "#212121",
-        "editor.foreground": "#303030"
+        "activityBar.background": "#140109", 
+        "activityBar.foreground": "#FDFFFC", 
+        "activityBar.border": "#2D191D",
+        "sideBar.background": "#140109", 
+        "sideBar.foreground": "#FDFFFC",
+        "sideBar.border": "#2D191D",
+        "editor.background": "#16010A",
+        "editorGroupHeader.tabsBackground": "#140109",
+        "tab.activeBackground": "#16010A",
+        "tab.activeForeground": "#FFCF99",
+        "tab.activeBorder": "#2D191D",
+        "tab.unfocusedActiveBorder": "#2D191D",
+        "tab.inactiveBackground": "#2D191D",
+        "tab.inactiveForeground": "#bababa",
+        "editor.foreground": "#FDFFFC",
+        "editorLineNumber.foreground": "#bababa",
+        "statusBar.background": "#bababa",
+        "statusBar.foreground": "#16010A"
     },
 
     "tokenColors": [
         {
-            "name": "Comments",
+            "name": "Strings",
             "scope": [
-                "comment.line",
-                "comment.block",
-                "comment.block.documentation",
-                "punctuation.definition.comment",
-                "meta.toc-list"
+                "string"
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#474747"
+                "foreground": "#FFCF99",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#686868",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "QUALCOSA DI CUI NON RICORDO IL NOME. TODO.",
+            "scope": [
+                "storage.type",
+                "support.function",
+                "support.constant",
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#83E2CB"  
+            }
+        },
+        {
+            "name": "Support Type",
+            "scope": [
+                "support.type",
+                "support.class",
+                "entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#EA526F"
+            }
+        },
+        {
+            "name": "Variable Parameter",
+            "scope": [
+                "variable.parameter"
+            ],
+            "settings": "#FBFF12"
+        },
+        {
+            "name": "Keyword",
+            "scope": [
+                "keyword"
+            ],
+            "settings": {
+                "foreground": "#D2F898"
             }
         }
-        
     ]
+    
 }

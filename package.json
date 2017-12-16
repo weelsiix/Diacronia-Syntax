@@ -2,7 +2,6 @@
   "name": "diacronia-syntax",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "test"
   },
@@ -24,5 +23,23 @@
   "bugs": {
     "url": "https://github.com/weelsiix/Diacronia-Syntax/issues"
   },
-  "homepage": "https://github.com/weelsiix/Diacronia-Syntax#readme"
+  "homepage": "https://github.com/weelsiix/Diacronia-Syntax#readme",
+
+  "publisher": "weelsiix",
+  "engines": {
+      "vscode": "^1.0.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "Diacronia",
+              "uiTheme": "vs-dark",
+              "path": "./themes/diacronia.json"
+          }
+      ]
+  }
+
 }
