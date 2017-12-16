@@ -33,16 +33,6 @@
                 "foreground": "#FFCF99",
                 "fontStyle": "italic"
             }
-        },
-        {
-            "name": "Comments",
-            "scope": [
-                "comment"
-            ],
-            "settings": {
-                "foreground": "#686868",
-                "fontStyle": "italic"
-            }
         }
     ]
     
