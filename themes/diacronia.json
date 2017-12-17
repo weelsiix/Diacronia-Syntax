@@ -7,7 +7,7 @@
         "activityBar.foreground": "#bababa", 
         "sideBar.background": "#211f20", 
         "sideBar.foreground": "#f9f9f9",
-        "editor.background": "#1e1c1d", /*"#292a2b",*/
+        "editor.background": "#1e1c1d", 
         "editor.foreground": "#ededed",
         "editorLineNumber.foreground": "#bababa",
         "editorGroupHeader.tabsBackground": "#211f20",
@@ -17,7 +17,7 @@
         "tab.inactiveBorder": "#bababa",
         "tab.inactiveBackground": "#211f20",
         "tab.inactiveForeground": "#bababa",
-        "statusBar.background": "#1e1c1d", /* #D8CBC7 */
+        "statusBar.background": "#1e1c1d", 
         "statusBar.foreground": "#bababa",
         "titleBar.activeBackground": "#1e1c1d",
         "editor.lineHighlightBackground": "#ffffff02",
@@ -57,7 +57,7 @@
                 "keyword.operator.js"
             ],
             "settings": {
-                "foreground": "#FFCF99" /*"#93FFF7"*/
+                "foreground": "#FFCF99" 
             }
         },
         {
@@ -75,7 +75,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#bf5477", // bf7457
+                "foreground": "#bf5477", 
                 "fontStyle": "italic"
             }
         },
@@ -86,7 +86,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#bb8a8a"
+                "foreground": "#F9C0AE"
             }
         },
         {
