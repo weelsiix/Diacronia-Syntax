@@ -3,44 +3,52 @@
     "type": "dark",
 
     "colors": {
-        "activityBar.background": "#1e1c1d", 
-        "activityBar.foreground": "#bababa", 
-        "sideBar.background": "#211f20", 
+        "activityBar.background": "#1e1c1d",
+        "activityBar.foreground": "#bababa",
+
+        "sideBar.background": "#211f20",
         "sideBar.foreground": "#f9f9f9",
-        "editor.background": "#1e1c1d", 
+
+        "editor.background": "#1e1c1d",
         "editor.foreground": "#ededed",
+        "editor.lineHighlightBackground": "#ffffff02",
+        "editor.lineHighlightBorder": "#ffffff03",
+        "editor.selectionBackground": "#ffffff1f",
+
+        "editorSuggestWidget.selectedBackground": "#ffffff2f",
+        "editorSuggestWidget.highlightForeground": "#c15353",
+        
         "editorLineNumber.foreground": "#bababa",
+        
         "editorGroupHeader.tabsBackground": "#211f20",
         "editorGroupHeader.tabsBorder": "#1e1c1d",
+        
         "tab.activeBackground": "#1e1c1d",
         "tab.activeBorder": "#bababa",
         "tab.inactiveBorder": "#bababa",
         "tab.inactiveBackground": "#211f20",
         "tab.inactiveForeground": "#bababa",
-        "statusBar.background": "#1e1c1d", 
+        
+        "statusBar.background": "#1e1c1d",
         "statusBar.foreground": "#bababa",
-        "titleBar.activeBackground": "#1e1c1d",
-        "editor.lineHighlightBackground": "#ffffff02",
-        "editor.lineHighlightBorder": "#ffffff03",
-        "editor.selectedBackground": "#ffffff03",
-        "editor.selectionBackground": "#ffffff0f",
-        "editorSuggestWidget.selectedBackground": "#ffffff0f",
-        "editorSuggestWidget.highlightForeground": "#c15353"
+        
+        "titleBar.activeBackground": "#1e1c1d"
     },
 
     "tokenColors": [
         {
-            "name": "Strings",
+            "name": "Rose (string)",
             "scope": [
-                "string"
+                "string",
+                "support.constant.property-value.css"
             ],
             "settings": {
-                "foreground": "#FF9999",
+                "foreground": "#FFCF99",
                 "fontStyle": "italic"
             }
-        },       
+        },
         {
-            "name": "Comments",
+            "name": "Bold and grey (comments)",
             "scope": [
                 "comment"
             ],          
@@ -50,56 +58,43 @@
             }
         },
         {
-            "name": "Keyword Operator",
+            "name": "Orange (Operators and new)",
             "scope": [
                 "keyword.operator",
                 "keyword.operator.new.js",
-                "keyword.operator.js"
+                "keyword.operator.js",
+
+                "support"
             ],
             "settings": {
-                "foreground": "#FFCF99" 
+                "foreground": "#FF9999" 
             }
         },
         {
-            "name": "Keyword Control",
-            "scope": [
-                "keyword.control"
-            ],
-            "settings": {
-                "foreground": "#bf5477"
-            }
-        },
-        {
-            "name": "Variable Language Operators",
-            "scope": [
-                "variable.language"
-            ],
-            "settings": {
-                "foreground": "#bf5477", 
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Storage Type && Constant Numeric",
+            "name": "Orange (var e const)",
             "scope": [
                 "storage.type",
-                "constant.numeric"
+                "constant.numeric",
+                "entity.other.attribute-name"
             ],
             "settings": {
                 "foreground": "#F9C0AE"
             }
         },
         {
-            "name": "Support",
+            "name": "Violet (this e keyword)",
             "scope": [
-                "support"
+                "keyword.control",
+                "variable.language",
+                "entity.name.tag"
             ],
             "settings": {
-                "foreground": "#FFCF99"
+                "foreground": "#bf5477",
+                "fontStyle": "italic"
             }
         },
         {
-            "name": "Entity",
+            "name": "Dark red",
             "scope": [
                 "entity.name.class",
                 "entity.name.struct",
@@ -107,10 +102,21 @@
                 "entity.name.union",
                 "entity.name.trait",
                 "entity.name.interface",
-                "entity.name.type"
+                "entity.name.type",
+                "entity.other.attribute-name"
             ],
             "settings": {
                 "foreground": "#c15353"
+            }
+        },
+        {
+            "name": "Brown",
+            "scope": [
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#98664E",
+                "fontStyle": "bold italic"
             }
         }
     ]
