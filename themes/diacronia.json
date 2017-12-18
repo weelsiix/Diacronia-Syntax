@@ -63,7 +63,7 @@
                 "keyword.operator",
                 "keyword.operator.new.js",
                 "keyword.operator.js",
-
+                "entity.other.attribute-name.html",
                 "support"
             ],
             "settings": {
@@ -112,7 +112,8 @@
         {
             "name": "Brown",
             "scope": [
-                "variable.parameter"
+                "variable.parameter",
+                "entity.name.tag.html"
             ],
             "settings": {
                 "foreground": "#98664E",
