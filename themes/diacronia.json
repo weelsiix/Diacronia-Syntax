@@ -3,36 +3,36 @@
     "type": "dark",
 
     "colors": {
-        "activityBar.background": "#1e1c1d",
-        "activityBar.foreground": "#bababa",
+        "activityBar.background": "#1E1C1D",
+        "activityBar.foreground": "#BABABA",
 
-        "sideBar.background": "#211f20",
-        "sideBar.foreground": "#f9f9f9",
+        "sideBar.background": "#211F20",
+        "sideBar.foreground": "#F9F9F9",
 
-        "editor.background": "#1e1c1d",
-        "editor.foreground": "#ededed",
-        "editor.lineHighlightBackground": "#ffffff02",
-        "editor.lineHighlightBorder": "#ffffff03",
-        "editor.selectionBackground": "#ffffff1f",
+        "editor.background": "#1E1C1D",
+        "editor.foreground": "#EDEDED",
+        "editor.lineHighlightBackground": "#FFFFFF02",
+        "editor.lineHighlightBorder": "#FFFFFF03",
+        "editor.selectionBackground": "#FFFFFF1F",
 
-        "editorSuggestWidget.selectedBackground": "#ffffff2f",
-        "editorSuggestWidget.highlightForeground": "#c15353",
+        "editorSuggestWidget.selectedBackground": "#FFFFFF2F",
+        "editorSuggestWidget.highlightForeground": "#C15353",
         
-        "editorLineNumber.foreground": "#bababa",
+        "editorLineNumber.foreground": "#BABABA",
         
-        "editorGroupHeader.tabsBackground": "#211f20",
-        "editorGroupHeader.tabsBorder": "#1e1c1d",
+        "editorGroupHeader.tabsBackground": "#211F20",
+        "editorGroupHeader.tabsBorder": "#1E1C1D",
         
-        "tab.activeBackground": "#1e1c1d",
-        "tab.activeBorder": "#bababa",
-        "tab.inactiveBorder": "#bababa",
-        "tab.inactiveBackground": "#211f20",
-        "tab.inactiveForeground": "#bababa",
+        "tab.activeBackground": "#1E1C1D",
+        "tab.activeBorder": "#BABABA",
+        "tab.inactiveBorder": "#BABABA",
+        "tab.inactiveBackground": "#211F20",
+        "tab.inactiveForeground": "#BABABA",
         
-        "statusBar.background": "#1e1c1d",
-        "statusBar.foreground": "#bababa",
+        "statusBar.background": "#1E1C1D",
+        "statusBar.foreground": "#BABABA",
         
-        "titleBar.activeBackground": "#1e1c1d"
+        "titleBar.activeBackground": "#1E1C1D"
     },
 
     "tokenColors": [
@@ -90,7 +90,7 @@
                 "entity.name.tag"
             ],
             "settings": {
-                "foreground": "#bf5477",
+                "foreground": "#BF5477",
                 "fontStyle": "italic"
             }
         },
@@ -107,7 +107,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#c15353"
+                "foreground": "#C15353"
             }
         },
         {
