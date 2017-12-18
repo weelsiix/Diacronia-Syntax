@@ -86,7 +86,8 @@
             "scope": [
                 "keyword.control",
                 "variable.language",
-                "entity.other.attribute-name"
+                
+                "entity.name.tag"
             ],
             "settings": {
                 "foreground": "#bf5477",
@@ -103,7 +104,7 @@
                 "entity.name.trait",
                 "entity.name.interface",
                 "entity.name.type",
-                "entity.name.tag"
+                "entity.other.attribute-name"
             ],
             "settings": {
                 "foreground": "#c15353"
@@ -112,8 +113,7 @@
         {
             "name": "Brown",
             "scope": [
-                "variable.parameter",
-                "entity.name.tag.html"
+                "variable.parameter"
             ],
             "settings": {
                 "foreground": "#98664E",
