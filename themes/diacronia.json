@@ -86,7 +86,7 @@
             "scope": [
                 "keyword.control",
                 "variable.language",
-                "entity.name.tag"
+                "entity.other.attribute-name"
             ],
             "settings": {
                 "foreground": "#bf5477",
@@ -103,7 +103,7 @@
                 "entity.name.trait",
                 "entity.name.interface",
                 "entity.name.type",
-                "entity.other.attribute-name"
+                "entity.name.tag"
             ],
             "settings": {
                 "foreground": "#c15353"
