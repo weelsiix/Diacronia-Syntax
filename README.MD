@@ -1,2 +1,2 @@
-*Diacronia Syntax*
-**Diacronia syntax theme**
+# Diacronia Syntax
+## Diacronia syntax theme
