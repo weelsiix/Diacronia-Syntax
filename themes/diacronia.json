@@ -40,7 +40,11 @@
             "name": "Rose (string)",
             "scope": [
                 "string",
-                "support.constant.property-value.css"
+                "support.constant.property-value.css",
+                "support.constant",
+                "support.type" ,
+                "support.class",
+                "support.other.variable"
             ],
             "settings": {
                 "foreground": "#FFCF99",
@@ -50,7 +54,9 @@
         {
             "name": "Bold and grey (comments)",
             "scope": [
-                "comment"
+                "comment",
+                "invalid",
+                "invalid.deprecated"
             ],          
             "settings": {
                 "foreground": "#43494C",
@@ -60,10 +66,14 @@
         {
             "name": "Orange (Operators and new)",
             "scope": [
+                "keyword",
                 "keyword.operator",
                 "keyword.operator.new.js",
                 "keyword.operator.js",
                 "entity.other.attribute-name.html",
+                "entity.name.class",
+                "entity.name.function",
+                "entity.other.inherited-class",
                 "support"
             ],
             "settings": {
@@ -73,9 +83,12 @@
         {
             "name": "Orange (var e const)",
             "scope": [
+                "storage",
                 "storage.type",
                 "constant.numeric",
-                "entity.other.attribute-name"
+                "constant.language",
+                "constant.character",
+                "constant.other"
             ],
             "settings": {
                 "foreground": "#F9C0AE"
@@ -85,8 +98,6 @@
             "name": "Violet (this e keyword)",
             "scope": [
                 "keyword.control",
-                "variable.language",
-                
                 "entity.name.tag"
             ],
             "settings": {
@@ -104,7 +115,8 @@
                 "entity.name.trait",
                 "entity.name.interface",
                 "entity.name.type",
-                "entity.other.attribute-name"
+                "entity.other.attribute-name",
+                "support.function"
             ],
             "settings": {
                 "foreground": "#C15353"
@@ -118,6 +130,16 @@
             "settings": {
                 "foreground": "#98664E",
                 "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "White",
+            "scope": [
+                "variable",
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#EDEDED"
             }
         }
     ]
