@@ -67,7 +67,10 @@
         "notification.foreground": "#F9F9F9",
         "notification.buttonBackground": "#C15353",
         "notification.buttonForeground": "#EDEDED",
-        "notification.buttonHoverBackground": "#B04C4C"
+        "notification.buttonHoverBackground": "#B04C4C",
+
+        "inputValidation.infoBackground": "#211F20",
+        "inputValidation.infoBorder": "#FFCF99"
     },
 
     "tokenColors": [
