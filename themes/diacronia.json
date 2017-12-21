@@ -52,6 +52,7 @@
 
         "peekView.border": "#FFCF99",
         "peekViewEditor.background": "#211F20",
+        "peekViewResult.selectionBackground": "#FFCF9922",
 
         "list.focusBackground": "#C15353",
         "list.hoverBackground": "#C1535311",
@@ -67,7 +68,6 @@
         "notification.buttonBackground": "#C15353",
         "notification.buttonForeground": "#EDEDED",
         "notification.buttonHoverBackground": "#B04C4C"
-
     },
 
     "tokenColors": [
