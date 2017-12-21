@@ -32,12 +32,16 @@
         "statusBar.background": "#1E1C1D",
         "statusBar.foreground": "#BABABA",
         
-        "titleBar.activeBackground": "#1E1C1D"
+        "titleBar.activeBackground": "#1E1C1D",
+        
+        "button.background": "#C15353",
+        "button.foreground": "#EDEDED",
+        "button.hoverBackground": "#B04C4C"
     },
 
     "tokenColors": [
         {
-            "name": "Rose (string)",
+            "name": "Orange (string)",
             "scope": [
                 "string",
                 "support.constant.property-value.css",
@@ -81,7 +85,7 @@
             }
         },
         {
-            "name": "Orange (var e const)",
+            "name": "Rose (var e const)",
             "scope": [
                 "storage",
                 "storage.type",
