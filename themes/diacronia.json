@@ -49,7 +49,9 @@
         "gitDecoration.modifiedResourceForeground": "#FFCF99",
 
         "peekView.border": "#FFCF99",
-        "peekViewEditor.background": "#211F20"
+        "peekViewEditor.background": "#211F20",
+
+        "list.focusBackground": "#C15353"
     },
 
     "tokenColors": [
