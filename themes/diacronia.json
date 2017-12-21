@@ -14,6 +14,8 @@
         "editor.lineHighlightBackground": "#FFFFFF02",
         "editor.lineHighlightBorder": "#FFFFFF03",
         "editor.selectionBackground": "#FFFFFF1F",
+        "editor.wordHighlightBackground": "#FFCF9911",
+        "editor.wordHighlightStrongBackground": "#FFCF9933",
 
         "editorSuggestWidget.selectedBackground": "#FFFFFF2F",
         "editorSuggestWidget.highlightForeground": "#C15353",
