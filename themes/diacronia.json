@@ -67,6 +67,7 @@
         "notification.buttonBackground": "#C15353",
         "notification.buttonForeground": "#EDEDED",
         "notification.buttonHoverBackground": "#B04C4C"
+
     },
 
     "tokenColors": [
@@ -82,7 +83,7 @@
             ],
             "settings": {
                 "foreground": "#FFCF99",
- 
+                "fontStyle": "italic"
             }
         },
         {
