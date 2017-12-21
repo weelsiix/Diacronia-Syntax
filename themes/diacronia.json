@@ -60,7 +60,13 @@
 
         "activityBarBadge.background": "#C15353",
 
-        "pickerGroup.foreground": "#FFCF99"
+        "pickerGroup.foreground": "#FFCF99",
+
+        "notification.background": "#211F20",
+        "notification.foreground": "#F9F9F9",
+        "notification.buttonBackground": "#C15353",
+        "notification.buttonForeground": "#EDEDED",
+        "notification.buttonHoverBackground": "#B04C4C"
 
     },
 
