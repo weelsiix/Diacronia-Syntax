@@ -56,7 +56,7 @@
         "list.focusBackground": "#C15353",
         "list.hoverBackground": "#C1535311",
         "list.highlightForeground": "#FFCF99",
-        "list.activeSelectionBackground": "C15353",
+        "list.activeSelectionBackground": "#C15353",
 
         "activityBarBadge.background": "#C15353",
 
