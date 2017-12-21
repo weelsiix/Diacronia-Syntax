@@ -36,7 +36,20 @@
         
         "button.background": "#C15353",
         "button.foreground": "#EDEDED",
-        "button.hoverBackground": "#B04C4C"
+        "button.hoverBackground": "#B04C4C",
+        
+        "progressBar.background": "#F9C0AE33",
+        
+        "input.border": "#FFCF9933",
+        "focusBorder": "#FFCF99bb",
+
+        "nofication.infoBackground": "#F9C0AE",
+
+        "editorGutter.modifiedBackground": "#FFCF99",
+        "gitDecoration.modifiedResourceForeground": "#FFCF99",
+
+        "peekView.border": "#FFCF99",
+        "peekViewEditor.background": "#211F20"
     },
 
     "tokenColors": [
@@ -68,7 +81,7 @@
             }
         },
         {
-            "name": "Orange (Operators and new)",
+            "name": "Rose (Operators and new)",
             "scope": [
                 "keyword",
                 "keyword.operator",
