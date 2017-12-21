@@ -53,7 +53,9 @@
 
         "list.focusBackground": "#C15353",
 
-        "activityBarBadge.background": "#C15353"
+        "activityBarBadge.background": "#C15353",
+
+        "pickerGroup.foreground": "#FFCF99"
 
     },
 
