@@ -51,7 +51,10 @@
         "peekView.border": "#FFCF99",
         "peekViewEditor.background": "#211F20",
 
-        "list.focusBackground": "#C15353"
+        "list.focusBackground": "#C15353",
+
+        "activityBarBadge.background": "#C15353"
+
     },
 
     "tokenColors": [
