@@ -33,7 +33,7 @@
         
         "statusBar.background": "#1E1C1D",
         "statusBar.foreground": "#BABABA",
-        
+
         "titleBar.activeBackground": "#1E1C1D",
         
         "button.background": "#C15353",
@@ -67,7 +67,6 @@
         "notification.buttonBackground": "#C15353",
         "notification.buttonForeground": "#EDEDED",
         "notification.buttonHoverBackground": "#B04C4C"
-
     },
 
     "tokenColors": [
