@@ -32,12 +32,25 @@
         "statusBar.background": "#1E1C1D",
         "statusBar.foreground": "#BABABA",
         
-        "titleBar.activeBackground": "#1E1C1D"
+        "titleBar.activeBackground": "#1E1C1D",
+        
+        "progressBar.background": "#F9C0AE33",
+        
+        "input.border": "#FFCF9933",
+        "focusBorder": "#FFCF99bb",
+
+        "nofication.infoBackground": "#F9C0AE",
+
+        "editorGutter.modifiedBackground": "#FFCF99",
+        "gitDecoration.modifiedResourceForeground": "#FFCF99",
+
+        "peekView.border": "#FFCF99",
+        "peekViewEditor.background": "#211F20"
     },
 
     "tokenColors": [
         {
-            "name": "Rose (string)",
+            "name": "Orange (string)",
             "scope": [
                 "string",
                 "support.constant.property-value.css",
@@ -64,7 +77,7 @@
             }
         },
         {
-            "name": "Orange (Operators and new)",
+            "name": "Rose (Operators and new)",
             "scope": [
                 "keyword",
                 "keyword.operator",
@@ -81,7 +94,7 @@
             }
         },
         {
-            "name": "Orange (var e const)",
+            "name": "Rose (var e const)",
             "scope": [
                 "storage",
                 "storage.type",
