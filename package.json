@@ -1,7 +1,7 @@
 {
   "name": "diacronia-syntax",
   "displayName": "Diacronia Theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "test": "test"
@@ -41,5 +41,6 @@
               "path": "./themes/diacronia.json"
           }
       ]
-  }
+  },
+  "icon": "https://raw.githubusercontent.com/weelsiix/Diacronia-Syntax/master/icon.png"
 }
