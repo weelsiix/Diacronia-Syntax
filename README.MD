@@ -1,6 +1,6 @@
 # Diacronia Syntax
 ## Diacronia syntax theme
-A dark red coloured syntax theme created for fun and shared with the comunity.
+A dark red coloured syntax theme created for fun and shared with the community.
 
 ![Screen](https://raw.githubusercontent.com/weelsiix/Diacronia-Syntax/master/Screenshots/Schermata%202017-12-25%20alle%2001.57.30.png)
 ## Install
