@@ -12,12 +12,12 @@
   },
   "keywords": [
     "diacronia",
+    "syntax",
+    "theme",
     "vscode",
     "visual",
     "studio",
-    "code",
-    "syntax",
-    "theme"
+    "code"
   ],
   "author": "Weelsiix & Daniele Borra",
   "license": "ISC",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/weelsiix/Diacronia-Syntax#readme",
 
-  "publisher": "Elias Gigantini & Daniele Borra",
+  "publisher": "Weelsiix-DanieleBorra",
   "engines": {
       "vscode": "^1.0.0"
   },
