@@ -1,46 +1,50 @@
 {
-  "name": "diacronia-syntax",
-  "displayName": "Diacronia Theme",
-  "version": "1.0.1",
-  "description": "",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/weelsiix/Diacronia-Syntax.git"
-  },
-  "keywords": [
-    "diacronia",
-    "syntax",
-    "theme",
-    "vscode",
-    "visual",
-    "studio",
-    "code"
-  ],
-  "author": "Weelsiix & Daniele Borra",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/weelsiix/Diacronia-Syntax/issues"
-  },
-  "homepage": "https://github.com/weelsiix/Diacronia-Syntax#readme",
-
-  "publisher": "Weelsiix-DanieleBorra",
-  "engines": {
-      "vscode": "^1.0.0"
-  },
-  "categories": [
-      "Themes"
-  ],
-  "contributes": {
-      "themes": [
-          {
-              "label": "Diacronia Theme",
-              "uiTheme": "vs-dark",
-              "path": "./themes/diacronia.json"
-          }
-      ]
-  },
-  "icon": "icon.png"
+	"name": "diacronia-syntax",
+	"displayName": "Diacronia Theme",
+	"version": "1.0.1",
+	"description": "",
+	"scripts": {
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/weelsiix/Diacronia-Syntax.git"
+	},
+	"keywords": [
+		"diacronia",
+		"syntax",
+		"theme",
+		"vscode",
+		"visual",
+		"studio",
+		"code"
+	],
+	"author": "Weelsiix & Daniele Borra",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/weelsiix/Diacronia-Syntax/issues"
+	},
+	"homepage": "https://github.com/weelsiix/Diacronia-Syntax#readme",
+	"publisher": "Weelsiix-DanieleBorra",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Diacronia Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/diacronia.json"
+			}
+		]
+	},
+	"icon": "icon.png",
+	"__metadata": {
+		"id": "747c07a5-6ea3-480d-9401-e22899ec36bb",
+		"publisherDisplayName": "Weelsiix-DanieleBorra",
+		"publisherId": "97febfff-61d8-4b12-bf32-c19cca92612b"
+	}
 }
