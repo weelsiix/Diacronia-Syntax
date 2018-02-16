@@ -18,7 +18,7 @@
         "editor.wordHighlightStrongBackground": "#FFCF9933",
 
         "editorSuggestWidget.selectedBackground": "#FFFFFF2F",
-        "editorSuggestWidget.highlightForeground": "#C15353",
+        "editorSuggestWidget.highlightForeground": "#B47779",
         
         "editorLineNumber.foreground": "#BABABA",
         
@@ -36,7 +36,7 @@
 
         "titleBar.activeBackground": "#191B1C",
         
-        "button.background": "#C15353",
+        "button.background": "#B47779",
         "button.foreground": "#EDEDED",
         "button.hoverBackground": "#B04C4C",
         
@@ -47,30 +47,30 @@
 
         "nofication.infoBackground": "#F9C0AE",
 
-        "editorGutter.modifiedBackground": "#FFCF99",
-        "gitDecoration.modifiedResourceForeground": "#FFCF99",
+        "editorGutter.modifiedBackground": "#DDBAA2",
+        "gitDecoration.modifiedResourceForeground": "#DDBAA2",
 
-        "peekView.border": "#FFCF99",
+        "peekView.border": "#DDBAA2",
         "peekViewEditor.background": "#211F20",
-        "peekViewResult.selectionBackground": "#FFCF9922",
+        "peekViewResult.selectionBackground": "#DDBAA222",
 
-        "list.focusBackground": "#C15353",
-        "list.hoverBackground": "#C1535311",
-        "list.highlightForeground": "#FFCF99",
-        "list.activeSelectionBackground": "#C15353",
+        "list.focusBackground": "#B47779",
+        "list.hoverBackground": "#B4777911",
+        "list.highlightForeground": "#DDBAA2",
+        "list.activeSelectionBackground": "#B47779",
 
-        "activityBarBadge.background": "#C15353",
+        "activityBarBadge.background": "#B47779",
 
-        "pickerGroup.foreground": "#FFCF99",
+        "pickerGroup.foreground": "#DDBAA2",
 
         "notification.background": "#211F20",
         "notification.foreground": "#F9F9F9",
-        "notification.buttonBackground": "#C15353",
+        "notification.buttonBackground": "#B47779",
         "notification.buttonForeground": "#EDEDED",
         "notification.buttonHoverBackground": "#B04C4C",
 
         "inputValidation.infoBackground": "#211F20",
-        "inputValidation.infoBorder": "#FFCF99"
+        "inputValidation.infoBorder": "#DDBAA2"
     },
 
     "tokenColors": [
@@ -114,7 +114,7 @@
                 "support"
             ],
             "settings": {
-                "foreground": "#947F94"
+                "foreground": "#DDBAA2"
             }
         },
         {
@@ -128,7 +128,7 @@
                 "constant.other"
             ],
             "settings": {
-                "foreground": "#DDBAA2"
+                "foreground": "#CECECD"
             }
         },
         {
@@ -156,7 +156,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#B47779"
+                "foreground": "#C3BDAC"
             }
         },
         {
@@ -176,7 +176,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#C3BDAC"
+                "foreground": "#B47779"
             }
         }
     ]
