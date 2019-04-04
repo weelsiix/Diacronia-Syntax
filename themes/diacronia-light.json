@@ -3,14 +3,14 @@
     "type": "dark",
 
     "colors": {
-        "activityBar.background": "#BABABA",
+        "activityBar.background": "#cecece",
         "activityBar.foreground": "#1E1C1D",
 
-        "sideBar.background": "#F9F9F9",
+        "sideBar.background": "#e5e5e5",
         "sideBar.foreground": "#141616",
 
         "editor.background": "#EDEDED",
-        "editor.foreground": "#1E1C1D",
+        "editor.foreground": "#585858",
         "editor.lineHighlightBackground": "#FFFFFF02",
         "editor.lineHighlightBorder": "#FFFFFF03",
         "editor.selectionBackground": "#0000001F",
@@ -20,21 +20,22 @@
         "editorSuggestWidget.selectedBackground": "#FFFFFF2F",
         "editorSuggestWidget.highlightForeground": "#C15353",
         
-        "editorLineNumber.foreground": "#BABABA",
+        "editorLineNumber.foreground": "#a5a5a5",
+        "editorLineNumber.activeForeground": "#3f3f3f",
         
-        "editorGroupHeader.tabsBackground": "#EDEDED",
-        "editorGroupHeader.tabsBorder": "#BABABA",
+        "editorGroupHeader.tabsBackground": "#f2f2f2",
+        "editorGroupHeader.tabsBorder": "#cecece",
         
-        "tab.activeBackground": "#BABABA",
-        "tab.activeBorder": "#BABABA",
-        "tab.inactiveBorder": "#BABABA",
+        "tab.activeBackground": "#e5e5e5",
+        "tab.activeBorder": "#5b5b5b",
+        "tab.inactiveBorder": "#5b5b5b",
         "tab.inactiveBackground": "#EDEDED",
-        "tab.inactiveForeground": "#BABABA",
+        "tab.inactiveForeground": "#5b5b5b",
         
-        "statusBar.background": "#BABABA",
-        "statusBar.foreground": "#BABABA",
+        "statusBar.background": "#cecece",
+        "statusBar.foreground": "#cecece",
 
-        "titleBar.activeBackground": "#BABABA",
+        "titleBar.activeBackground": "#cecece",
         
         "button.background": "#C15353",
         "button.foreground": "#EDEDED",
@@ -47,21 +48,21 @@
 
         "nofication.infoBackground": "#F9C0AE",
 
-        "editorGutter.modifiedBackground": "#FFCF99",
-        "gitDecoration.modifiedResourceForeground": "#FFCF99",
+        "editorGutter.modifiedBackground": "#c68335",
+        "gitDecoration.modifiedResourceForeground": "#c68335",
 
-        "peekView.border": "#FFCF99",
+        "peekView.border": "#c68335",
         "peekViewEditor.background": "#EDEDED",
-        "peekViewResult.selectionBackground": "#FFCF9922",
+        "peekViewResult.selectionBackground": "#c6833522",
 
-        "list.focusBackground": "#C15353",
-        "list.hoverBackground": "#C1535311",
-        "list.highlightForeground": "#FFCF99",
-        "list.activeSelectionBackground": "#C15353",
+        "list.focusBackground": "#c68335",
+        "list.hoverBackground": "#c6833511",
+        "list.highlightForeground": "#c68335",
+        "list.activeSelectionBackground": "#c68335",
 
         "activityBarBadge.background": "#C15353",
 
-        "pickerGroup.foreground": "#FFCF99",
+        "pickerGroup.foreground": "#c68335",
 
         "notification.background": "#EDEDED",
         "notification.foreground": "#F9F9F9",
@@ -70,7 +71,7 @@
         "notification.buttonHoverBackground": "#B04C4C",
 
         "inputValidation.infoBackground": "#EDEDED",
-        "inputValidation.infoBorder": "#FFCF99"
+        "inputValidation.infoBorder": "#c68335"
     },
 
     "tokenColors": [
@@ -85,7 +86,7 @@
                 "support.other.variable"
             ],
             "settings": {
-                "foreground": "#E8BD8C",
+                "foreground": "#c68335",
                 "fontStyle": "italic"
             }
         },
@@ -97,7 +98,7 @@
                 "invalid.deprecated"
             ],          
             "settings": {
-                "foreground": "#C6C7C4",
+                "foreground": "#a2a39f",
                 "fontStyle": "bold italic"
             }
         },
@@ -129,7 +130,7 @@
                 "constant.other"
             ],
             "settings": {
-                "foreground": "#F9C0AE"
+                "foreground": "#c4674a"
             }
         },
         {
@@ -171,13 +172,13 @@
             }
         },
         {
-            "name": "White",
+            "name": "Black",
             "scope": [
                 "variable",
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#EAEBEB"
+                "foreground": "#3f3f3f"
             }
         }
     ]

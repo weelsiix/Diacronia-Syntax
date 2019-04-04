@@ -43,6 +43,11 @@
 				"label": "Diacronia Theme Alternative",
 				"uiTheme": "vs-dark",
 				"path": "./themes/diacronia-alt.json"
+			},
+			{
+				"label": "Diacronia Theme Light",
+				"uiTheme": "vs",
+				"path": "./themes/diacronia-light.json"
 			}
 		]
 	},
