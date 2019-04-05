@@ -17,7 +17,7 @@
         "editor.wordHighlightBackground": "#FFCF9911",
         "editor.wordHighlightStrongBackground": "#FFCF9933",
 
-        "editorSuggestWidget.selectedBackground": "#FFFFFF2F",
+        "editorSuggestWidget.selectedBackground": "#0000001F",
         "editorSuggestWidget.highlightForeground": "#C15353",
         
         "editorLineNumber.foreground": "#a5a5a5",
@@ -57,7 +57,7 @@
 
         "list.focusBackground": "#c68335",
         "list.hoverBackground": "#c6833511",
-        "list.highlightForeground": "#c68335",
+        "list.highlightForeground": "#3f3f3f",
         "list.activeSelectionBackground": "#c68335",
 
         "activityBarBadge.background": "#C15353",
