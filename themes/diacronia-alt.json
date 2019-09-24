@@ -10,7 +10,7 @@
         "sideBar.foreground": "#F9F9F9",
 
         "editor.background": "#141616",
-        "editor.foreground": "#EDEDED",
+        "editor.foreground": "#D9D9D9",
         "editor.lineHighlightBackground": "#FFFFFF02",
         "editor.lineHighlightBorder": "#FFFFFF03",
         "editor.selectionBackground": "#FFFFFF1F",
@@ -37,7 +37,7 @@
         "titleBar.activeBackground": "#191B1C",
         
         "button.background": "#B25358",
-        "button.foreground": "#EDEDED",
+        "button.foreground": "#D9D9D9",
         "button.hoverBackground": "#B04C4C",
         
         "progressBar.background": "#F9C0AE33",
@@ -66,7 +66,7 @@
         "notification.background": "#211F20",
         "notification.foreground": "#F9F9F9",
         "notification.buttonBackground": "#B25358",
-        "notification.buttonForeground": "#EDEDED",
+        "notification.buttonForeground": "#D9D9D9",
         "notification.buttonHoverBackground": "#B04C4C",
 
         "inputValidation.infoBackground": "#211F20",
