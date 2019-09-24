@@ -70,7 +70,27 @@
         "notification.buttonHoverBackground": "#B04C4C",
 
         "inputValidation.infoBackground": "#211F20",
-        "inputValidation.infoBorder": "#B25358"
+        "inputValidation.infoBorder": "#B25358",
+
+        "terminal.background": "#141616",
+        "terminal.foreground": "#D2D2E6",
+        "terminal.ansiBlack": "#141616",
+        "terminal.ansiBlue": "#5e9ccf",
+        "terminal.ansiBrightBlack": "#525A67",
+        "terminal.ansiBrightBlue": "#4583B6",
+        "terminal.ansiBrightCyan": "#389DAA",
+        "terminal.ansiBrightGreen": "#51AA71",
+        "terminal.ansiBrightMagenta": "#C64E06",
+        "terminal.ansiBrightRed": "#C9525A",
+        "terminal.ansiBrightWhite": "#D2D2E6",
+        "terminal.ansiBrightYellow": "#CDA85D",
+        "terminal.ansiCyan": "#51b6c3",
+        "terminal.ansiGreen": "#6ac38a",
+        "terminal.ansiMagenta": "#df671f",
+        "terminal.ansiRed": "#e26b73",
+        "terminal.ansiWhite": "#ebebff",
+        "terminal.ansiYellow": "#e6c176",
+        "terminalCursor.foreground": "#D2D2E6"
     },
 
     "tokenColors": [
