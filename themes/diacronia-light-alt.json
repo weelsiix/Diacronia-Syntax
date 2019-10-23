@@ -1,0 +1,187 @@
+{
+    "name": "diacronia",
+    "type": "dark",
+
+    "colors": {
+        "activityBar.background": "#24292e",
+        "activityBar.foreground": "#cecece",
+
+        "sideBar.background": "#e5e5e5",
+        "sideBar.foreground": "#141616",
+
+        "editor.background": "#E6E6E6",
+        "editor.foreground": "#585858",
+        "editor.lineHighlightBackground": "#FFFFFF02",
+        "editor.lineHighlightBorder": "#FFFFFF03",
+        "editor.selectionBackground": "#0000001F",
+        "editor.wordHighlightBackground": "#FFCF9911",
+        "editor.wordHighlightStrongBackground": "#FFCF9933",
+
+        "editorSuggestWidget.selectedBackground": "#0000001F",
+        "editorSuggestWidget.highlightForeground": "#C15353",
+        
+        "editorLineNumber.foreground": "#a5a5a5",
+        "editorLineNumber.activeForeground": "#3f3f3f",
+        
+        "editorGroupHeader.tabsBackground": "#f2f2f2",
+        "editorGroupHeader.tabsBorder": "#cecece",
+        
+        "tab.activeBackground": "#e5e5e5",
+        "tab.activeBorder": "#5b5b5b",
+        "tab.inactiveBorder": "#5b5b5b",
+        "tab.inactiveBackground": "#EDEDED",
+        "tab.inactiveForeground": "#5b5b5b",
+        
+        "statusBar.background": "#24292e",
+        "statusBar.foreground": "#cecece",
+
+        "titleBar.activeBackground": "#24292e",
+        "titleBar.activeForeground": "#cecece",
+        
+        "button.background": "#C15353",
+        "button.foreground": "#EDEDED",
+        "button.hoverBackground": "#B04C4C",
+        
+        "progressBar.background": "#F9C0AE33",
+        
+        "input.border": "#FFCF9933",
+        "focusBorder": "#FFCF99bb",
+
+        "nofication.infoBackground": "#F9C0AE",
+
+        "editorGutter.modifiedBackground": "#c68335",
+        "gitDecoration.modifiedResourceForeground": "#c68335",
+
+        "peekView.border": "#c68335",
+        "peekViewEditor.background": "#EDEDED",
+        "peekViewResult.selectionBackground": "#c6833522",
+
+        "list.focusBackground": "#c68335",
+        "list.hoverBackground": "#c6833511",
+        "list.highlightForeground": "#3f3f3f",
+        "list.activeSelectionBackground": "#c68335",
+
+        "activityBarBadge.background": "#C15353",
+
+        "pickerGroup.foreground": "#c68335",
+
+        "notification.background": "#EDEDED",
+        "notification.foreground": "#F9F9F9",
+        "notification.buttonBackground": "#C15353",
+        "notification.buttonForeground": "#EDEDED",
+        "notification.buttonHoverBackground": "#B04C4C",
+
+        "inputValidation.infoBackground": "#EDEDED",
+        "inputValidation.infoBorder": "#c68335"
+    },
+
+    "tokenColors": [
+        {
+            "name": "Orange (string)",
+            "scope": [
+                "string",
+                "support.constant.property-value.css",
+                "support.constant",
+                "support.type" ,
+                "support.class",
+                "support.other.variable"
+            ],
+            "settings": {
+                "foreground": "#c68335",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Bold and grey (comments)",
+            "scope": [
+                "comment",
+                "invalid",
+                "invalid.deprecated"
+            ],          
+            "settings": {
+                "foreground": "#a2a39f",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "Rose (Operators and new)",
+            "scope": [
+                "keyword",
+                "keyword.operator",
+                "keyword.operator.new.js",
+                "keyword.operator.js",
+                "entity.other.attribute-name.html",
+                "entity.name.class",
+                "entity.name.function",
+                "entity.other.inherited-class",
+                "support"
+            ],
+            "settings": {
+                "foreground": "#D17E7E"
+            }
+        },
+        {
+            "name": "Rose (var e const)",
+            "scope": [
+                "storage",
+                "storage.type",
+                "constant.numeric",
+                "constant.language",
+                "constant.character",
+                "constant.other"
+            ],
+            "settings": {
+                "foreground": "#c4674a"
+            }
+        },
+        {
+            "name": "Violet (this e keyword)",
+            "scope": [
+                "keyword.control",
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#BF5477",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Dark red",
+            "scope": [
+                "entity.name.class",
+                "entity.name.struct",
+                "entity.name.enum",
+                "entity.name.union",
+                "entity.name.trait",
+                "entity.name.interface",
+                "entity.name.type",
+                "entity.other.attribute-name",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#C15353"
+            }
+        },
+        {
+            "name": "Brown",
+            "scope": [
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#98664E",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "Black",
+            "scope": [
+                "variable",
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#3f3f3f"
+            }
+        }
+    ]
+    
+}
