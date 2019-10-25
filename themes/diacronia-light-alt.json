@@ -7,10 +7,10 @@
         "activityBar.foreground": "#cecece",
 
         "sideBar.background": "#e5e5e5",
-        "sideBar.foreground": "#141616",
+        "sideBar.foreground": "#000000",
 
         "editor.background": "#E6E6E6",
-        "editor.foreground": "#585858",
+        "editor.foreground": "#202020",
         "editor.lineHighlightBackground": "#FFFFFF02",
         "editor.lineHighlightBorder": "#FFFFFF03",
         "editor.selectionBackground": "#0000001F",
@@ -21,22 +21,26 @@
         "editorSuggestWidget.highlightForeground": "#C15353",
         
         "editorLineNumber.foreground": "#a5a5a5",
-        "editorLineNumber.activeForeground": "#3f3f3f",
+        "editorLineNumber.activeForeground": "#202020",
         
         "editorGroupHeader.tabsBackground": "#f2f2f2",
         "editorGroupHeader.tabsBorder": "#cecece",
-        
+
+        "tab.border": "#ededed",
         "tab.activeBackground": "#e5e5e5",
-        "tab.activeBorder": "#5b5b5b",
-        "tab.inactiveBorder": "#5b5b5b",
+        "tab.activeForeground": "#202020",
+        "tab.activeBorder": "#e5e5e5",
         "tab.inactiveBackground": "#EDEDED",
         "tab.inactiveForeground": "#5b5b5b",
+        "tab.inactiveBorder": "#ededed",
         
         "statusBar.background": "#24292e",
         "statusBar.foreground": "#cecece",
 
         "titleBar.activeBackground": "#24292e",
         "titleBar.activeForeground": "#cecece",
+        "titleBar.inactiveBackground": "#24292e",
+        "titleBar.inactiveForeground": "#cecece",
         
         "button.background": "#C15353",
         "button.foreground": "#EDEDED",
@@ -44,13 +48,13 @@
         
         "progressBar.background": "#F9C0AE33",
         
-        "input.border": "#FFCF9933",
-        "focusBorder": "#FFCF99bb",
+        "input.border": "#b07128AA",
+        "focusBorder": "#b07128",
 
         "nofication.infoBackground": "#F9C0AE",
 
-        "editorGutter.modifiedBackground": "#c68335",
-        "gitDecoration.modifiedResourceForeground": "#c68335",
+        "editorGutter.modifiedBackground": "#b07128",
+        "gitDecoration.modifiedResourceForeground": "#b07128",
 
         "peekView.border": "#c68335",
         "peekViewEditor.background": "#EDEDED",
@@ -60,6 +64,7 @@
         "list.hoverBackground": "#c6833511",
         "list.highlightForeground": "#3f3f3f",
         "list.activeSelectionBackground": "#c68335",
+        "list.inactiveSelectionBackground": "#c6833522",
 
         "activityBarBadge.background": "#C15353",
 
@@ -72,7 +77,7 @@
         "notification.buttonHoverBackground": "#B04C4C",
 
         "inputValidation.infoBackground": "#EDEDED",
-        "inputValidation.infoBorder": "#c68335"
+        "inputValidation.infoBorder": "#b07128"
     },
 
     "tokenColors": [
@@ -87,7 +92,7 @@
                 "support.other.variable"
             ],
             "settings": {
-                "foreground": "#c68335",
+                "foreground": "#b07128",
                 "fontStyle": "italic"
             }
         },
@@ -179,7 +184,7 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#3f3f3f"
+                "foreground": "#202020"
             }
         }
     ]
